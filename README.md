@@ -33,5 +33,5 @@ A full-stack Airbnb-style web application built with Node.js, Express, MongoDB, 
 
 ```bash
 git clone https://github.com/your-username/airbnb-clone.git
-cd airbnb-clone
+cd airbnb-clone-project
 npm install
