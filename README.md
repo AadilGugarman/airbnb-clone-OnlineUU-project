@@ -120,7 +120,7 @@ airbnb-clone-project/
 | Name | Aadil Gugarman |
 | Course | Bachelor of Computer Applications (BCA) |
 | University | Uttaranchal University |
-| Guide | Mr. Ramiz Shaikh (Software Engineer) |
+| Guide | Mr. Ramiz Shaikh (Technical Lead) |
 | Submission | Major Project |
 
 
