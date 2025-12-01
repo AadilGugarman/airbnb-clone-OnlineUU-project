@@ -87,39 +87,42 @@ Live Deployment:
 *(Will be updated soon)*
 
 ---
-
+```
 ## 📂 Folder Structure
 
 
 airbnb-clone-project/
 │
-├── app.js
-├── package.json
+├── app.js                # Main server file
+├── package.json          # Dependencies
 ├── package-lock.json
 ├── .gitignore
-├── .env.example
-├── README.md
-├── RUN.txt
+├── .env.example          # Environment variables sample
+├── README.md             # Documentation
+├── RUN.txt               # Run instructions
 │
-├── controllers/     # Business logic
-├── models/          # Database schemas
-├── routes/          # All express routes
-├── views/           # EJS UI pages
-├── public/          # CSS, JS & images
-├── middleware/      # Authentication rules
-├── utils/           # Helper utilities
-└── uploads/         # Uploaded images
+├── controllers/          # Business logic
+├── models/               # MongoDB schemas
+├── routes/               # Express routes
+├── views/                # EJS templates (UI pages)
+├── public/               # Static files (CSS/JS & Images)
+├── middleware/           # Auth & validation
+├── utils/                # Helper utilities
+└── uploads/              # Uploaded images
 
-
+```
 ---
 
 ## 👨‍💻 Developer Information
 
-| Name       | Aadil Gugarman                          |
-| Course     | Bachelor of Computer Applications (BCA) |
-| University | Uttaranchal University                  |
-| Guide      | Mr. Ramiz Shaikh (Software Engineer)    |
-| Submission | Major Project                           |
+| Field | Details |
+|-------|---------|
+| Name | Aadil Gugarman |
+| Course | Bachelor of Computer Applications (BCA) |
+| University | Uttaranchal University |
+| Guide | Mr. Ramiz Shaikh (Software Engineer) |
+| Submission | Major Project |
+
 
 ---
 
