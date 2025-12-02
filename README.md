@@ -84,7 +84,7 @@ GitHub Repository:
 👉 https://github.com/AadilGugarman/airbnb-clone-OnlineUU-project
 
 Live Deployment:
-*(Will be updated soon)*
+👉 https://airbnb-clone-onlineuu-project.onrender.com
 
 ---
 ```
