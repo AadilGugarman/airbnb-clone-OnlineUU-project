@@ -20,18 +20,20 @@ const LocalStrategy = require('passport-local');
 
 
 
-const port = 8080;
+const port = process.env.PORT || 8080;
 
-const dbUrl = process.env.ATLAS_DB
+const dbUrl = process.env.ATLAS_DB;
 
-main().then((res)=>{
-    console.log('connected to DB')
-}).catch((err) =>{
-  console.log(err)
-})
-async function main(){
-    await mongoose.connect(dbUrl)
-};
+mongoose
+  .connect(dbUrl)
+  .then(() => {
+    console.log("✅ Connected to MongoDB");
+  })
+  .catch((err) => {
+    console.log("❌ MongoDB connection error:");
+    console.log(err);
+  });
+
 
 app.set('view engine' , 'ejs');
 app.set('views' , path.join(__dirname,'views'));
@@ -103,6 +105,6 @@ app.use((err , req , res , next)=>{
 })
 
 app.listen(port , ()=>{
-     console.log('app is listening to 8080')
-})
+     console.log(`App is listening on port ${port}`);
+});
 
