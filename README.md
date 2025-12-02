@@ -17,6 +17,7 @@ at **Uttaranchal University**.
 - Secure session management and flash messaging
 - Form validation using Joi
 - Error handling with custom error pages
+- Map Integration for Location (Mapbox)
 
 
 ## 🛠️ Tech Stack
@@ -80,11 +81,11 @@ http://localhost:8080/listings
 
 ## 🔗 Project Links
 
-GitHub Repository:
-👉 https://github.com/AadilGugarman/airbnb-clone-OnlineUU-project
+- **GitHub Repository**:  
+  👉 https://github.com/AadilGugarman/airbnb-clone-OnlineUU-project  
 
-Live Deployment:
-👉 https://airbnb-clone-onlineuu-project.onrender.com
+- **Live Deployment**:  
+  👉 https://airbnb-clone-onlineuu-project.onrender.com  
 
 ---
 ```
