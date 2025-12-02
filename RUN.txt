@@ -1,0 +1,30 @@
+Airbnb Clone - How to Run the Project
+
+1️⃣ Install Node.js
+Download and install Node.js from: https://nodejs.org/
+
+2️⃣ Install Project Dependencies
+Open terminal in this project folder and run:
+npm install
+
+3️⃣ Setup Environment Variables
+Create a new file named `.env` and copy the keys from `.env.example`
+Then fill your actual credentials inside `.env`
+
+4️⃣ Start the Server
+Run any one command:
+node app.js
+or
+npx nodemon app.js
+
+5️⃣ Open Application in Browser
+Go to this link:
+http://localhost:8080/listings
+
+⚠ Important Notes:
+- Do not upload `.env` file online (security risk)
+- Internet is required for MongoDB, Cloudinary & Mapbox
+- If server does not start, check that `.env` values are correct
+- Keep the `uploads` folder as it is
+
+✔ You have successfully started the project!
